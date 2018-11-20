@@ -1,0 +1,82 @@
+h1{
+    background-color: #9361bf;
+    color: white;
+    font-family: georgia;
+    width: fit-content;
+    
+}
+
+.title{
+    top:0px;
+    display: block;
+    
+}
+#add-user{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#add-user input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+}
+
+#add-user button{
+    border: 1px solid #9361bf;
+    background: #9361bf;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    float: left;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+
+#add-user:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#user-list, #add-user, #tabbed-content{
+    margin: 30px;
+}
+
+#user-list ul, #tabbed-content ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#user-list li{
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+}
+
+#user-list li:hover{
+    border-color: #9361bf;
+}
+
+.delete{
+    float: right;
+    background: #9361bf;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.delete:hover{
+    background: #333;
+}
